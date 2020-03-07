@@ -16,7 +16,6 @@ func search(nums []int, val, start int) int {
 func threeSum(nums []int) [][]int {
     var res [][]int
     sort.Ints(nums)
-    fmt.Println(nums)
     for i := 0; i < len(nums); i++ {
         if i > 0 && nums[i] == nums[i-1] {
             continue
